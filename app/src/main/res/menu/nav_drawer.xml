@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/update_user"
+            android:title="Update User Details"
+            /> <item
+            android:id="@+id/nav_gameRule"
+            android:icon="@drawable/baseline_rule_game"
+            android:title="Game Rules"
+            /> <item
+            android:id="@+id/nav_passwordChange"
+            android:icon="@drawable/baseline_password_red"
+            android:title="Change Password"
+            /> <item
+            android:id="@+id/nav_creator"
+            android:icon="@drawable/baseline_contact_mail_about_creator"
+            android:title="About Us"
+            />
+
+    </group>
+    <item
+        android:title=""
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_logOutDrawer"
+                android:title="LOGOUT"
+                android:icon="@drawable/baseline_logout_24"
+                />
+        </menu>
+
+    </item>
+
+</menu>

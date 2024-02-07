@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222137094916",
+    "project_id": "innocent-bird",
+    "storage_bucket": "innocent-bird.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222137094916:android:11051f8663618cd459f651",
+        "android_client_info": {
+          "package_name": "com.self.nafsoft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrOc-IE7je06u1t9HzvoYovJ5WLgl6M_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

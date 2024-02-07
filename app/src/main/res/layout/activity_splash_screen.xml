@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="10dp"
+    android:elevation="25dp"
+    android:layout_margin="5dp"
+    tools:context=".SplashScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backroundth">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieBird"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            android:layout_marginTop="5dp"
+            app:lottie_rawRes="@raw/animation_lo1s5hh1"
+            app:lottie_autoPlay="true"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieProgress"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="440dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:elevation="10dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/animation_lo1swiw4" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

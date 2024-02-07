@@ -2,5 +2,11 @@
     <string name="app_name">Innocent Bird</string>
     <string name="nav_open">Open Navigation Drawer</string>
     <string name="nav_close">Close Navigation Drawer</string>
+    <string name="game_rule"> Save the Blue Bird from bees, collect coins for 10 points each. Avoid bees to keep your three lives.
+    Rules:
+        Control the Blue Bird.
+        Collect coins (+10 points).
+        Avoid bees (-1 life).
+    </string>
 
 </resources>
